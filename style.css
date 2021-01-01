@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+
+/** {
+    border: solid;
+}*/
+.header{
+    background-color: rgb(210, 255, 11);
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p{
+    text-align: center;
+}
